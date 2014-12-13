@@ -1,0 +1,41 @@
+<% if (errors) {%>
+  <% errors.forEach(function (error) { %>
+    <%= __(error) %>
+  <% }) %>
+<% } %>
+
+<div class="col-lg-6">
+  <div class="well bs-component">
+    <form class="form-horizontal" role="form" action="/auth/local" method="post">
+      <fieldset>
+        <legend>Sign In</legend>
+        <div class="form-group">
+          <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+          <div class="col-lg-10">
+            <input type="email" name="identifier" class="form-control" id="inputEmail" placeholder="Username or Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+          <div class="col-lg-10">
+            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <a href="/register" class="btn btn-default">Sign Up</a>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+    <% if (providers) {%>
+      <h4>You can also use one of these...</h4>
+
+      <% Object.keys(providers).forEach(function (key) { %>
+        <a href="/auth/<%= providers[key].slug %>" role="button"><%= providers[key].name %></a>
+      <% }) %>
+    <% } %>
+  </div>
+</div>

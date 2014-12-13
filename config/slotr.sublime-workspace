@@ -1,0 +1,1689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"line",
+				"lineitems"
+			],
+			[
+				"match",
+				"matchDevice"
+			],
+			[
+				"user",
+				"user_sockets"
+			],
+			[
+				"room",
+				"roomname"
+			],
+			[
+				"redis",
+				"redisPubClient"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"retu",
+				"return_message"
+			],
+			[
+				"remove",
+				"removeItemFromArray"
+			],
+			[
+				"chat",
+				"chatService"
+			],
+			[
+				"usern",
+				"username_input"
+			],
+			[
+				"j",
+				"joinRoom"
+			],
+			[
+				"ge",
+				"getUser"
+			],
+			[
+				"check",
+				"checkUser"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"socket",
+				"socket_connected"
+			],
+			[
+				"socke",
+				"socket_connected"
+			],
+			[
+				"message",
+				"message_box"
+			],
+			[
+				"data",
+				"data_client"
+			],
+			[
+				"user_",
+				"user_exists"
+			],
+			[
+				"publish",
+				"publisher"
+			],
+			[
+				"subsc",
+				"subscriber"
+			],
+			[
+				"_bac",
+				"_backSky"
+			],
+			[
+				"_back",
+				"_backSkyHeight"
+			],
+			[
+				"devie",
+				"deviceid"
+			],
+			[
+				"address",
+				"addresses"
+			],
+			[
+				"device",
+				"device_homedwell_addresses"
+			],
+			[
+				"matc",
+				"matchLineitemId"
+			],
+			[
+				"distin",
+				"distinct_data"
+			],
+			[
+				"linte_i",
+				"line_item_id_match"
+			],
+			[
+				"impress",
+				"impressions3"
+			],
+			[
+				"impres",
+				"impressions1"
+			],
+			[
+				"df",
+				"dfp_lookup_bc"
+			],
+			[
+				"app",
+				"appnexus_lookup"
+			],
+			[
+				"cont",
+				"contains"
+			],
+			[
+				"elig",
+				"eligible_homdwells"
+			],
+			[
+				"line_",
+				"line_item_list"
+			],
+			[
+				"lao",
+				"localeze_raw"
+			],
+			[
+				"control_",
+				"control_data"
+			],
+			[
+				"combine",
+				"combined_lines"
+			],
+			[
+				"lineitem",
+				"line_item_1"
+			],
+			[
+				"home",
+				"homedwells"
+			],
+			[
+				"filtered",
+				"filtered_day_group"
+			],
+			[
+				"day_",
+				"day_group"
+			],
+			[
+				"SU",
+				"SUBSTRING"
+			],
+			[
+				"campa",
+				"campaign"
+			],
+			[
+				"campaign",
+				"campaignID"
+			],
+			[
+				"downlo",
+				"download_url"
+			],
+			[
+				"GRA",
+				"GRAPHITE_KEY_PREFIX"
+			],
+			[
+				"latest_",
+				"latest_drop"
+			],
+			[
+				"data_grou",
+				"data_group_count"
+			],
+			[
+				"resu",
+				"results"
+			],
+			[
+				"results",
+				"resultsbox"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"work",
+				"works"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"resi",
+				"Residency"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"su",
+				"submitted"
+			],
+			[
+				"text",
+				"text_field"
+			],
+			[
+				"wor",
+				"works"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"die",
+				"dieuDonne"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"image",
+				"image_number"
+			],
+			[
+				"image_",
+				"image_number"
+			],
+			[
+				"fiel",
+				"file_field"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"req",
+				"request_tile_group_count"
+			],
+			[
+				"devi",
+				"device_id"
+			],
+			[
+				"sele",
+				"selected_name"
+			],
+			[
+				"seq",
+				"sequenceArray"
+			],
+			[
+				"chart",
+				"chart_name"
+			],
+			[
+				"csv",
+				"csvwriter"
+			],
+			[
+				"desti",
+				"destination_list"
+			],
+			[
+				"buck",
+				"bucket"
+			],
+			[
+				"bu",
+				"bucket"
+			],
+			[
+				"nt",
+				"network"
+			],
+			[
+				"other",
+				"other_files"
+			],
+			[
+				"segm",
+				"segment"
+			],
+			[
+				"seg",
+				"segment"
+			],
+			[
+				"dest",
+				"destination_list"
+			],
+			[
+				"api",
+				"api_url"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"segmen",
+				"segments_map"
+			],
+			[
+				"segment",
+				"segments_match"
+			],
+			[
+				"initial",
+				"initial_output"
+			],
+			[
+				"camp",
+				"campaigns_file"
+			],
+			[
+				"audien",
+				"audience"
+			],
+			[
+				"aud",
+				"audience_name"
+			],
+			[
+				"tax",
+				"taxonomy_id"
+			],
+			[
+				"repor",
+				"reporting_location"
+			],
+			[
+				"taxo",
+				"taxonomy_name"
+			],
+			[
+				"us",
+				"us_cellular_lrj"
+			],
+			[
+				"fin",
+				"financial_lrj"
+			],
+			[
+				"confir",
+				"confirm_info"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "connections.js",
+			"settings":
+			{
+				"buffer_size": 4732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/akalaiselvan/Projects/node/slotr/views/layout.ejs",
+			"settings":
+			{
+				"buffer_size": 6218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/akalaiselvan/Projects/node/slotr/views/homepage.ejs",
+			"settings":
+			{
+				"buffer_size": 4034,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "google-calendar.js",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slotr.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 31293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/akalaiselvan/Projects/node/slotr/tasks/pipeline.js",
+			"settings":
+			{
+				"buffer_size": 2408,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "env/development.js",
+			"settings":
+			{
+				"buffer_size": 817,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models.js",
+			"settings":
+			{
+				"buffer_size": 1447,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 72.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snippe",
+				"Snippet: html"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"snipp",
+				"Snippet: htmlform"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 695.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"register"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/akalaiselvan/Projects/node/slotr/config",
+		"/Users/akalaiselvan/Projects/node/slotr/config/env",
+		"/Users/akalaiselvan/Projects/node/slotr/tasks",
+		"/Users/akalaiselvan/Projects/node/slotr/views"
+	],
+	"file_history":
+	[
+		"/Users/akalaiselvan/Projects/node/slotr/config/google-calendar.js",
+		"/Users/akalaiselvan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/akalaiselvan/Projects/node/slotr/node_modules/sails/node_modules/ejs-locals/example/views/index.ejs",
+		"/Users/akalaiselvan/Projects/node/slotr/node_modules/ejs/index.js",
+		"/Users/akalaiselvan/Projects/node/slotr/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/import-no-semi.less",
+		"/Users/akalaiselvan/Projects/node/slotr/config/i18n.js",
+		"/Users/akalaiselvan/Projects/node/slotr/node_modules/rc/LICENSE.APACHE2",
+		"/Users/akalaiselvan/Projects/node/slotr/config/local.js",
+		"/Users/akalaiselvan/Projects/node/slotr/Gruntfile.js",
+		"/Users/akalaiselvan/Projects/node/slotr/.bowerrc",
+		"/Users/akalaiselvan/Projects/ruby/slotr/Gemfile.lock",
+		"/Users/akalaiselvan/Projects/placeiq/swat/343/dodge/dodge.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/767/id_data/output.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Analysis/SWAT_pig.txt",
+		"/Users/akalaiselvan/Projects/placeiq/swat/658/658_pig_script.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/560/password",
+		"/Users/akalaiselvan/Projects/placeiq/swat/dd/diff_pig.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/cube/pig_1411949377686.log",
+		"/Users/akalaiselvan/Projects/placeiq/swat/cube/pig_1411949285071.log",
+		"/Users/akalaiselvan/Projects/placeiq/swat/685/process_raw_impressions.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/607/queries.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/768/impression_data/part-06700",
+		"/Users/akalaiselvan/Projects/placeiq/swat/swat-672.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/datadrop/dd_drop_data_test.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/distcp",
+		"/Users/akalaiselvan/Projects/placeiq/swat/685/controller.gz",
+		"/Users/akalaiselvan/Projects/placeiq/swat/673/crystal_light.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/768/impression_data_$folder$",
+		"/Users/akalaiselvan/Projects/placeiq/swat/imp/imp_counts.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/782/output_xad/inMarket_$folder$",
+		"/Users/akalaiselvan/Projects/placeiq/swat/577/index.html",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/gilette.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/389/samsung_beta_with_counts.xlsx",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Queries/s3:::com.placeiq.logs:standardized:campaign:appnex",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/queries.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Data/SPAM_COMMA",
+		"/Users/akalaiselvan/Projects/placeiq/swat/719/2014.10.21-adsgateway-12.nym1.placeiq.net-R-23-12.gz",
+		"/Users/akalaiselvan/Projects/placeiq/swat/735/20141028/part-00791",
+		"/Users/akalaiselvan/Projects/placeiq/swat/795/conversion_report.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/722/step5.pig",
+		"/Users/akalaiselvan/Projects/node/chatio/index.js",
+		"/Users/akalaiselvan/.ssh/known_hosts",
+		"/Users/akalaiselvan/Projects/node/chatio/public/js/script.js",
+		"/Users/akalaiselvan/Projects/node/chatio/public/css/screen.css",
+		"/Users/akalaiselvan/Projects/node/chatio/public/css/main.css",
+		"/Users/akalaiselvan/Projects/node/chatio/public/css/brackets.css",
+		"/Users/akalaiselvan/Projects/node/chatio/public/css/topcoat-mobile-light.min.css",
+		"/Users/akalaiselvan/Downloads/topcoat-0.8.0 2/css/topcoat-mobile-light.min.css",
+		"/Users/akalaiselvan/Projects/node/chatio/users.js",
+		"/Users/akalaiselvan/Projects/node/chatio/test.js",
+		"/Users/akalaiselvan/Projects/node/chatio/rooms.js",
+		"/Users/akalaiselvan/Projects/node/chatio/package.json",
+		"/Users/akalaiselvan/Projects/node/chatter/server.js",
+		"/Users/akalaiselvan/Projects/node/chatio/.gitignore",
+		"/Users/akalaiselvan/Projects/node/chatio/jquery.min.js",
+		"/Users/akalaiselvan/Projects/games/flimflam/res/b01.plist",
+		"/Users/akalaiselvan/Projects/placeiq/swat/swat-619.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/735/20141028/part-00722",
+		"/Users/akalaiselvan/Projects/placeiq/swat/735/20141028_$folder$",
+		"/Users/akalaiselvan/Projects/placeiq/swat/717/2014.10.21-adsgateway-12.nym1.placeiq.net-18-30.gz",
+		"/Users/akalaiselvan/Projects/placeiq/swat/722/dunnhumby_kroger_cheerios.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/722/step1.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/722/step2.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/722/step3.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/722/step4.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/684/queries_7.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/dd/new_$folder$",
+		"/Users/akalaiselvan/Projects/placeiq/swat/469/nobadtiles4/nobadtiles4a",
+		"/Users/akalaiselvan/Projects/placeiq/swat/dd/dd_run",
+		"/Users/akalaiselvan/Projects/placeiq/swat/695/query.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/685/check.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/swat-523.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/577/audience_map.txt",
+		"/Users/akalaiselvan/Projects/placeiq/swat/567/audienceCounts.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/719/amobee_log_sample.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Data/Low_Success_XAD_c39740957b32e5cc.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Data/LAT_LONG_count",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Queries/-- data from log record join => use the length of",
+		"/Users/akalaiselvan/Projects/placeiq/swat/notifier/config/database.yml",
+		"/Users/akalaiselvan/Projects/placeiq/swat/568/dfp_api.yml",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/dunnhumby_kroger_gilette.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/step5.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/step4.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/step3.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/step2.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/721/step1.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/669/georgia_exposure.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/685/queries.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/swat-681.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/405/exposed.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/emr_helper.crx",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/queries.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/717/appnexus_impressions.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step4.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step2.pig",
+		"/Users/akalaiselvan/Projects/placeiq/sparklaunch.sh",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step1_3.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step1.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step1_2.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step1_1.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step3.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/496/raw_amo_july/amoJuly.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/a",
+		"/Users/akalaiselvan/Projects/placeiq/swat/661/step1.pih",
+		"/Users/akalaiselvan/.bash_profile",
+		"/Users/akalaiselvan/Projects/placeiq/ignite",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Data/IMB_lf_15b93_c506c_SuccessRate.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Swat_Feedback_Email_List.rtf",
+		"/Users/akalaiselvan/Projects/placeiq/swat/indu_files/Swat_Feedback_Email_List",
+		"/Users/akalaiselvan/Projects/placeiq/swat/notifier/db/migrate/20140911222322_create_delayed_jobs.rb",
+		"/Users/akalaiselvan/Projects/placeiq/swat/371/dealerships.csv",
+		"/Users/akalaiselvan/Projects/placeiq/swat/685/part-m-00121",
+		"/Users/akalaiselvan/Projects/placeiq/swat/658/csv/countApp/app/views/layouts/application.html.erb",
+		"/Users/akalaiselvan/Projects/placeiq/swat/658/csv/countApp/config/initializers/filter_parameter_logging.rb",
+		"/Users/akalaiselvan/Projects/placeiq/swat/658/csv/countApp/db/schema.rb",
+		"/Users/akalaiselvan/Projects/placeiq/swat/658/csv/countApp/log/.keep",
+		"/Users/akalaiselvan/Projects/placeiq/swat/swat-680.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/664/",
+		"/Users/akalaiselvan/Projects/placeiq/swat/664/queries.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/702/mac_and_cheese.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/679/mac_cheese.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/702/crystal_light.scala",
+		"/Users/akalaiselvan/.ssh/config",
+		"/Users/akalaiselvan/Projects/placeiq/swat/seg_plus_query.scala",
+		"/Users/akalaiselvan/Projects/placeiq/swat/swat-664.pig",
+		"/Users/akalaiselvan/Projects/placeiq/swat/568/mailer.rb",
+		"/Users/akalaiselvan/.ssh/conf",
+		"/Users/akalaiselvan/Projects/placeiq/swat/401/a.rb"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var ",
+			"convert",
+			"4",
+			"11SLT838473",
+			"18TTN803876",
+			"18TXL224458",
+			"14RPU209490",
+			"should be:",
+			"not in dfp:",
+			"not in manifest:",
+			"55295410",
+			",",
+			"58373770",
+			"dfp_",
+			"	",
+			",",
+			"-",
+			"/-.*,/U",
+			"-.*,/U",
+			",",
+			"),",
+			"((",
+			"),",
+			",",
+			"),",
+			"aerospikeIngest/20141203",
+			"20141203_20141126",
+			"segments-",
+			"segments",
+			"${DATE}",
+			"walmart",
+			"deciles",
+			"logrecord",
+			"1337",
+			"sockets[",
+			"chat.rooms",
+			"\"room\"",
+			"user_sockets[i]",
+			"val",
+			"checkRoom",
+			"getRoom",
+			"that.getRoom",
+			"getRoom",
+			"hget",
+			"redisClient.hget",
+			"redisClient.get",
+			"Client.get",
+			"get",
+			"create_room",
+			"createRoom",
+			"getRooms",
+			"socket",
+			"hdel",
+			"that.roomKey",
+			"this.",
+			"data",
+			"created",
+			"data",
+			"this.",
+			"form",
+			"font/",
+			"UserStore",
+			"\"room\":",
+			"user[\"room\"]",
+			"socket",
+			"joinRoom",
+			"chackRoom",
+			"client.",
+			"roomExists",
+			"user",
+			"function ",
+			"=",
+			"roomService",
+			"chat.sockets",
+			"chat.sockets[",
+			"sockets[",
+			"var ",
+			"$('#m')",
+			"').",
+			"$('#m').val()",
+			"var ",
+			"data_client",
+			"subscriber",
+			"publisher",
+			"event",
+			"MW.",
+			"s3",
+			",",
+			"g_maingame",
+			"var MW",
+			"var MW=",
+			"URB",
+			"'.*",
+			",",
+			"data",
+			"new",
+			"not in dfp:",
+			"not in manifest:",
+			"/20141029",
+			"20141029_20141023",
+			"59922850",
+			"appnexus_lookup(",
+			"5",
+			"')",
+			".*",
+			"case",
+			"                          ",
+			"                         ",
+			"                        ",
+			"*/",
+			"s3://com.placeiq.analytics/arun",
+			"dfp",
+			"dfp_",
+			"swat/Arun/661/",
+			"s3://com.placeiq.swat/Arun/661",
+			"plzaceiq",
+			"' ->",
+			"\"",
+			"OR",
+			"\"",
+			",",
+			"simplified",
+			"not in dfp:",
+			"kn1 not in dfp: ",
+			"/ ",
+			"xxxx",
+			"AND",
+			"impression/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"aof",
+			"Segments->Travel->Hotels->Marriott->Courtyard_by_Marriott"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "connections.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3367,
+								3367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1734.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/akalaiselvan/Projects/node/slotr/views/layout.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3361,
+								3361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/akalaiselvan/Projects/node/slotr/views/homepage.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "google-calendar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "slotr.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31105,
+								31105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 41678.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/akalaiselvan/Projects/node/slotr/tasks/pipeline.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "env/development.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "models.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1427,
+								1427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 406.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"project": "slotr.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"indexej",
+				"node_modules/sails/node_modules/ejs-locals/example/views/index.ejs"
+			],
+			[
+				"layout",
+				"views/layout.ejs"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"dove",
+				"763/unilever_dove_dunnhumby.pig"
+			],
+			[
+				"pig",
+				"658/658_pig_script.pig"
+			],
+			[
+				"ddrun",
+				"dd/dd_run"
+			],
+			[
+				"dd",
+				"datadrop/dd_drop_data_test.pig"
+			],
+			[
+				"conversion",
+				"795/conversion_report.scala"
+			],
+			[
+				"scala",
+				"721/gilette.scala"
+			],
+			[
+				"index",
+				"index.js"
+			],
+			[
+				"chat",
+				"chat.js"
+			],
+			[
+				"bull",
+				"src/Bullet.js"
+			],
+			[
+				"gamef",
+				"src/config/GameConfig.js"
+			],
+			[
+				"685quer",
+				"685/queries.pig"
+			],
+			[
+				"722/ste",
+				"722/step1.pig"
+			],
+			[
+				"722",
+				"722/step5.pig"
+			],
+			[
+				"721/ste",
+				"721/step5.pig"
+			],
+			[
+				"722/",
+				"722/step5.pig"
+			],
+			[
+				"newpu",
+				"685/new_pull.pig"
+			],
+			[
+				"exposure",
+				"669/georgia_exposure.pig"
+			],
+			[
+				"661/quer",
+				"661/queries.pig"
+			],
+			[
+				"amobe",
+				"719/amobee_log_sample.scala"
+			],
+			[
+				"661",
+				"661/queries.scala"
+			],
+			[
+				"685/",
+				"685/queries.pig"
+			],
+			[
+				"sca",
+				"661/queries.scala"
+			],
+			[
+				"scal",
+				"661/queries.scala"
+			],
+			[
+				"661/que",
+				"661/queries.scala"
+			],
+			[
+				"mac",
+				"679/mac_cheese.pig"
+			],
+			[
+				"crsy",
+				"673/crystal_light.pig"
+			],
+			[
+				"cryst",
+				"702/crystal_light.scala"
+			],
+			[
+				"query.s",
+				"695/query.scala"
+			],
+			[
+				".rb",
+				"401/a.rb"
+			],
+			[
+				"georg",
+				"669/georgia_exposure.pig"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"geor",
+				"669/georgia_exposure.pig"
+			],
+			[
+				"file",
+				"585/file_sizes"
+			],
+			[
+				"bower",
+				"ember/bower.json"
+			],
+			[
+				"itemseria",
+				"rails/app/serializers/item_serializer.rb"
+			],
+			[
+				"routes",
+				"rails/config/routes.rb"
+			],
+			[
+				"datab",
+				"rails/config/database.yml"
+			],
+			[
+				"seeds",
+				"rails/db/seeds.rb"
+			],
+			[
+				"indexhs",
+				"ember/app/templates/items/index.hbs"
+			],
+			[
+				"show",
+				"ember/app/templates/items/show.hbs"
+			],
+			[
+				"item",
+				"ember/app/models/item.js"
+			],
+			[
+				"apphbs",
+				"ember/app/templates/application.hbs"
+			],
+			[
+				"mycol",
+				"ember/app/templates/my_collection.hbs"
+			],
+			[
+				"applicahb",
+				"ember/app/templates/application.hbs"
+			],
+			[
+				"router",
+				"ember/app/router.js"
+			],
+			[
+				"reportingr",
+				"ruby/notifier/lib/tasks/reporting/reporting.rb"
+			],
+			[
+				"ppnpc",
+				"emr/pig/pvr/PP_and_NP_Count.pig"
+			],
+			[
+				"exposed",
+				"emr/pig/pvr/exposed_analytics.pig"
+			],
+			[
+				"rake",
+				"lib/tasks/reporting.rake"
+			],
+			[
+				"repoting",
+				"lib/tasks/reporting/reporting.rb"
+			],
+			[
+				"grap",
+				"lib/tasks/reporting/graphite.rb"
+			],
+			[
+				"report",
+				"lib/tasks/reporting.rake"
+			],
+			[
+				"mail",
+				"568/mailer.rb"
+			],
+			[
+				"4",
+				"572/4_out.txt"
+			],
+			[
+				"3_o",
+				"572/3_out.txt"
+			],
+			[
+				"2_out",
+				"572/2_out.txt"
+			],
+			[
+				"1out",
+				"572/1_out.txt"
+			],
+			[
+				"1.tx",
+				"572/1.txt"
+			],
+			[
+				"req",
+				"requests_all.csv"
+			],
+			[
+				"output",
+				"output.txt"
+			],
+			[
+				"tileout",
+				"tile_out.txt"
+			],
+			[
+				"lat",
+				"lat_long_tile.rb"
+			],
+			[
+				"revicont",
+				"app/controllers/reviews_controller.rb"
+			],
+			[
+				"dashb",
+				"app/views/reviews/dashboard.html.erb"
+			],
+			[
+				"revicss",
+				"app/assets/stylesheets/reviews.css.scss"
+			],
+			[
+				"reviecont",
+				"app/controllers/reviews_controller.rb"
+			],
+			[
+				"work",
+				"app/models/work.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"chamgeme",
+				"db/migrate/20140708002847_change_medium_to_test_in_works.rb"
+			],
+			[
+				"res",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"resijs",
+				"app/assets/javascripts/residency.js.coffee"
+			],
+			[
+				"profilra",
+				"lib/tasks/profiles.rake"
+			],
+			[
+				"profilcont",
+				"app/controllers/profiles_controller.rb"
+			],
+			[
+				"view",
+				"app/views/profiles/view.html.erb"
+			],
+			[
+				"new",
+				"config/newrelic.yml"
+			],
+			[
+				"depo",
+				"config/deploy.rb"
+			],
+			[
+				"capfi",
+				"Capfile"
+			],
+			[
+				"dep",
+				"config/deploy.rb"
+			],
+			[
+				"lock",
+				"Gemfile.lock"
+			],
+			[
+				"geml",
+				"Gemfile.lock"
+			],
+			[
+				"depl",
+				"config/deploy.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"deploy",
+				"config/deploy.rb"
+			],
+			[
+				"reside",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"reviewa",
+				"app/views/residency/review_application.html.erb"
+			],
+			[
+				"messagecont",
+				"app/controllers/messages_controller.rb"
+			],
+			[
+				"resicont",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"works",
+				"app/controllers/works_controller.rb"
+			],
+			[
+				"profilesrake",
+				"lib/tasks/profiles.rake"
+			],
+			[
+				"review",
+				"app/views/residency/review_application.html.erb"
+			],
+			[
+				"appcont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"resi",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"profi",
+				"app/controllers/profiles_controller.rb"
+			],
+			[
+				"residencyjs",
+				"app/assets/javascripts/residency.js.coffee"
+			],
+			[
+				"upload",
+				"app/views/residency/upload_work.html.erb"
+			],
+			[
+				"creatwork",
+				"db/migrate/20140511214403_create_works.rb"
+			],
+			[
+				"workscont",
+				"app/controllers/works_controller.rb"
+			],
+			[
+				"morein",
+				"app/views/residency/more_info.html.erb"
+			],
+			[
+				"rev",
+				"app/views/residency/review_application.html.erb"
+			],
+			[
+				"produc",
+				"config/environments/production.rb"
+			],
+			[
+				"deply",
+				"config/deploy.rb"
+			],
+			[
+				"de",
+				"config/deploy.rb"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"uniin",
+				"config/unicorn_init.sh"
+			],
+			[
+				"apprb",
+				"config/application.rb"
+			],
+			[
+				"rack",
+				"config/initializers/rack-attack.rb"
+			],
+			[
+				"unirb",
+				"config/unicorn.rb"
+			],
+			[
+				"unicoin",
+				"config/unicorn_init.sh"
+			],
+			[
+				"messagecon",
+				"app/controllers/messages_controller.rb"
+			],
+			[
+				"_links",
+				"app/views/devise/shared/_links.erb"
+			],
+			[
+				"resuu",
+				"app/uploaders/resume_uploader.rb"
+			],
+			[
+				"resideccss",
+				"app/assets/stylesheets/residency.css.scss"
+			],
+			[
+				"fini",
+				"app/views/residency/finish_profile.html.erb"
+			],
+			[
+				"rescon",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"creapro",
+				"db/migrate/20140511214541_create_profiles.rb"
+			],
+			[
+				"creaprofi",
+				"doc/CreateProfiles.html"
+			],
+			[
+				"creatusers",
+				"db/migrate/20140420023919_devise_create_users.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"residco",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"mesa",
+				"app/controllers/messages_controller.rb"
+			],
+			[
+				"base",
+				"app/assets/stylesheets/base.css.scss"
+			],
+			[
+				"residencont",
+				"app/controllers/residency_controller.rb"
+			],
+			[
+				"createuser",
+				"doc/DeviseCreateUsers.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
