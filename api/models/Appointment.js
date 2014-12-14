@@ -5,10 +5,17 @@
 * @docs        :: http://sailsjs.org/#!documentation/models
 */
 
-module.exports = {
-
+var Appointment = {
   attributes: {
-
+    user: { model: 'User', required: true },
+    start: { type: 'datetime' },
+    end: { type: 'datetime' },
+    title: { type: 'string' },
+    status: { type: 'string', required: true, defaultsTo: 'suggested' },
+    // status : suggested, accepted, confirmed
+    attendees: { collection: 'Attendee', via: 'attendees'}
   }
 };
 
+
+module.exports = Appointment;
