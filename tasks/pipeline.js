@@ -20,6 +20,7 @@ var cssFilesToInject = [
   'styles/ripples.min.css',
   'styles/jquery.dropdown.css',
   'styles/material.min.css',
+  'styles/fullcalendar.css',
   'styles/**/*.css',
   // 'styles/**/*.map'
 ];
@@ -28,7 +29,6 @@ var cssFilesToInject = [
 // Client-side javascript files to inject in order
 // (uses Grunt-style wildcard/glob/splat expressions)
 var jsFilesToInject = [
-  
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
   // 'js/dependencies/jquery-1.10.2.min.js',
@@ -36,6 +36,8 @@ var jsFilesToInject = [
   'js/dependencies/material.min.js',
   'js/dependencies/ripples.min.js',
   'js/dependencies/jquery.dropdown.js',
+  'js/dependencies/moment.min.js',
+  'js/dependencies/fullcalendar.min.js',
 
   // Dependencies like jQuery, or Angular are brought in here
   // 'js/dependencies/**/*.js',

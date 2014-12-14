@@ -27,13 +27,14 @@ module.exports.policies = {
   ***************************************************************************/
 
   // '*': true,
-  '*' : ['sessionAuth','passport'],
+  '*' : ['passport','sessionAuth'],
   'auth': {
     '*': ['passport']
-  },
-  'appointment': {
-    '*': ['sessionAuth', 'passport']
   }
+  // ,
+  // 'appointment': {
+  //   '*': ['sessionAuth', 'passport']
+  // }
 
   /***************************************************************************
   *                                                                          *
