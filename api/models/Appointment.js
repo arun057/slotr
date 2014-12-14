@@ -13,7 +13,7 @@ var Appointment = {
     title: { type: 'string' },
     status: { type: 'string', required: true, defaultsTo: 'suggested' },
     // status : suggested, accepted, confirmed
-    attendees: { collection: 'Attendee', via: 'attendees'}
+    attendees: { collection: 'Attendee', via: 'user'}
   }
 };
 
