@@ -6,7 +6,7 @@ var User = {
     username  : { type: 'string', unique: true },
     email     : { type: 'email',  unique: true },
     passports : { collection: 'Passport', via: 'user' },
-    role      : { type: 'string' } // meh, its okay for now [applicant, employee, admin]
+    role      : { type: 'string', defaultsTo: 'user' } // meh, its okay for now [applicant, employee, admin]
   }
 };
 

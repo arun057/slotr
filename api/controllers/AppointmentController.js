@@ -44,6 +44,27 @@ var AppointmentController = {
   },
   create: function(req,res) {
     //
+  },
+  show: function(req,res) {
+    // show the appointment
+    // check user type, render the view.
+    var user_id = req.session.passport.user;
+    getUser(user_id, function(err, user){
+      //
+      var email = user.email;
+      var type = user.role;
+      switch(type) {
+        case 'applicant':
+          res.view('appointment/applicant',data)
+          break;
+        case 'employee':
+          res.view('appointment/employee',data)
+          break;
+        case 'admin':
+          res.view('appointment/admin',data)
+          break;
+      }
+    });
   }
 };
 
@@ -67,6 +88,12 @@ function getAccessToken(user_id, callback) {
       }
     }
     callback(accessToken, user.email);
+  });
+}
+
+function getUser(user_id, callback) {
+  User.findById(user_id).exec(function(err,r){
+    callback(err, r[0]);
   });
 }
 
