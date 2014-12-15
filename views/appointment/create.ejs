@@ -26,7 +26,7 @@
     <div class="modal-footer">
       <div class="form-group">
         <div class="col-lg-10 col-lg-offset-2">
-          <button type="submit" class="btn btn-primary">Create Appointment</button>
+          <button type="submit" disabled="disabled" class="btn btn-primary">Create Appointment</button>
         </div>
       </div>
     </div>
@@ -34,9 +34,28 @@
 </div>
 <script>
   $(document).ready(function() {
-    $('#calendar').fullCalendar({
+    var calendar = $('#calendar');
+    var id = 0;
+    var events = [];
+    calendar.fullCalendar({
       weekends: false,
       defaultView: 'agendaWeek',
+      selectable: true,
+      selectHelper: true,
+      select: function(start, end, jsEvent, view) {
+        var event_item = {
+          id: id,
+          start: start,
+          end: end,
+          title: 'appointment',
+          borderColor: '#357ebd',
+          backgroundColor: "#009587"
+        };
+        id++;
+        calendar.fullCalendar('unselect');
+        calendar.fullCalendar( 'renderEvent', event_item );
+      },
+      selectOverlap: false,
       events: <%- JSON.stringify(events) %>,
       businessHours: {
         start: '9:00',
