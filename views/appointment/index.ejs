@@ -4,12 +4,15 @@
     $('#calendar').fullCalendar({
       weekends: false,
       defaultView: 'agendaWeek',
-      events: <%- JSON.stringify(events) %>,
       businessHours: {
         start: '9:00',
         end: '19:00',
         dow: [ 1, 2, 3, 4, 5 ]
-      }
+      },
+      events: {
+        url: '/appointments/events',
+        cache: true,
+      },
     });
 });
 </script>

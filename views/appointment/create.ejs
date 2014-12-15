@@ -66,7 +66,10 @@
         createEvent(event_item);
       },
       selectOverlap: false,
-      events: <%- JSON.stringify(events) %>,
+      events: {
+        url: '/appointments/events',
+        cache: true,
+      },
       businessHours: {
         start: '9:00',
         end: '19:00',

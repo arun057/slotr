@@ -62,5 +62,6 @@ module.exports.routes = {
 
   'get /appointments': 'AppointmentController.index',
   'get /appointments/create': 'AppointmentController.create',
+  'get /appointments/events' : 'AppointmentController.events',
   'get /appointments/:appointment_id' : 'AppointmentController.show'
 };

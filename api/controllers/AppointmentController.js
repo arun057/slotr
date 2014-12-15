@@ -10,17 +10,23 @@ var AppointmentController = {
   index: function(req,res) {
     // get access token
     var user_id = req.session.passport.user;
-    getAccessToken(user_id, function(accesstoken,email){
-      var eow = new Date();
-      eow.setDate(eow.getDate() + 7);
+    getUser(user_id, function(error, user){
+      res.view({user_id: user_id, username: user.email});
+    });
+  },
+  events: function(req,res) {
+    var user_id = req.session.passport.user;
+    getAccessToken(user_id, function(accesstoken, email){
+      var start = req.query.start;
+      var end = req.query.end;
       var options = {
-        'timeMin': new Date().toISOString(),
-        'timeMax': eow.toISOString()
+        'timeMin' : new Date(start).toISOString(),
+        'timeMax' : new Date(end).toISOString()
       };
       getEvents(accesstoken, email, options, function(error, eventList){
         eventList = JSONParse(eventList);
         events = parseEvents(eventList.items);
-        res.view({events: events,user_id: user_id, username: email});
+        res.json(events);
       });
     });
   },
