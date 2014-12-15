@@ -4,8 +4,6 @@
  * @description :: Server-side logic for managing appointments
  * @help        :: See http://links.sailsjs.org/docs/controllers
  */
-
-var gcal = require('google-calendar');
 var AppointmentController = {
   index: function(req,res) {
     // get access token
@@ -23,7 +21,9 @@ var AppointmentController = {
         'timeMin' : new Date(start).toISOString(),
         'timeMax' : new Date(end).toISOString()
       };
-      getEvents(accesstoken, email, options, function(error, eventList){
+      GCalService.getEvents(
+        {accessToken: accesstoken, email: email, query: options},
+        function(error, eventList){
         eventList = JSONParse(eventList);
         events = parseEvents(eventList.items);
         res.json(events);
@@ -33,7 +33,7 @@ var AppointmentController = {
   new: function(req, res) {
     console.log(req.param("appointment"));
     // res.
-  }
+  },
   create: function(req,res) {
     var user_id = req.session.passport.user;
     getUser(user_id, function(error, user){
@@ -65,11 +65,6 @@ var AppointmentController = {
     });
   }
 };
-
-function getEvents(accesstoken, email, options, callback) {
-  var google_calendar = new gcal.GoogleCalendar(accesstoken);
-  google_calendar.events.list(email, options, callback);
-}
 
 function parseEvents(items) {
   var events = [];
