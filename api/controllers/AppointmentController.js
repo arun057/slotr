@@ -32,18 +32,8 @@ var AppointmentController = {
   },
   create: function(req,res) {
     var user_id = req.session.passport.user;
-    getAccessToken(user_id, function(accesstoken, email){
-      var eow = new Date();
-      eow.setDate(eow.getDate() + 7);
-      var options = {
-        'timeMin': new Date().toISOString(),
-        'timeMax': eow.toISOString()
-      };
-      getEvents(accesstoken, email, options, function(error, eventList){
-        eventList = JSONParse(eventList);
-        events = parseEvents(eventList.items);
-        res.view({events: events,user_id: user_id, username: email});
-      });
+    getUser(user_id, function(error, user){
+      res.view({user_id: user_id, username: user.email});
     });
   },
   show: function(req,res) {
