@@ -30,6 +30,10 @@ var AppointmentController = {
       });
     });
   },
+  new: function(req, res) {
+    console.log(req.param("appointment"));
+    // res.
+  }
   create: function(req,res) {
     var user_id = req.session.passport.user;
     getUser(user_id, function(error, user){

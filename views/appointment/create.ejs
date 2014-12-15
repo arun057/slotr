@@ -2,7 +2,7 @@
   <div id="calendar"></div>
 </div>
 <div class="col-lg-4">
-  <form class="form-horizontal">
+  <form class="form-horizontal" id="createNewAppointment">
     <div class="modal-body">
       <fieldset>
         <div class="form-group">
@@ -45,7 +45,7 @@
     var calendar = $('#calendar');
     var id = 0;
     var title = "Appointment";
-    var events = [];
+    var events = {};
     calendar.fullCalendar({
       weekends: false,
       defaultView: 'agendaWeek',
@@ -60,6 +60,7 @@
           borderColor: '#357ebd',
           backgroundColor: "#009587"
         };
+        events[id] = event_item;
         id++;
         calendar.fullCalendar('unselect');
         calendar.fullCalendar( 'renderEvent', event_item );
@@ -78,15 +79,44 @@
     });
 
     function createEvent(event){
-      var modal = $('.well_placeholder .well').clone();
-      modal.find('.start').text(moment(event.start).format('MMM Do, h:mm a'));
-      modal.find('.end').text(moment(event.end).format('MMM Do, h:mm a'));
-      modal.find('button').attr('data-id',event.id);
-      modal.find('button').on('click',function(e){
-        calendar.fullCalendar("removeEvents",[$(this).attr('data-id')]);
-        modal.remove();
+      var appointment_element = $('.well_placeholder .well').clone();
+      appointment_element.find('.start').text(moment(event.start).format('MMM Do, h:mm a'));
+      appointment_element.find('.end').text(moment(event.end).format('MMM Do, h:mm a'));
+      appointment_element.find('button').attr('data-id',event.id);
+      appointment_element.find('button').on('click',function(e){
+        var event_id = $(this).attr('data-id');
+        delete events[event_id];
+        calendar.fullCalendar("removeEvents",[event_id]);
+        appointment_element.remove();
       });
-      $('.appointments').append(modal);
+      $('.appointments').append(appointment_element);
+    }
+
+    $('#createNewAppointment').on('submit', function(e){
+      if (validate()) {
+        $.ajax({
+          url: '/appointments/new',
+          dataType: 'json',
+          data: {"appointment":
+            {
+              attendee:"",
+              employee:"",
+              events:events
+            }
+          },
+          type: 'POST',
+          success: function(data) {
+            //
+          }
+        });
+      }
+      e.preventDefault();
+      e.stopPropagation();
+    });
+
+    function validate() {
+      var valid = true;
+      //
     }
   });
 </script>
