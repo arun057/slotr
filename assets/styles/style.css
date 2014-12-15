@@ -1,0 +1,17 @@
+a.google {
+  display: block;
+  width: 492px;
+  height: 108px;
+  background: url(/images/google_button.png) no-repeat;
+  background-position: 0 0;
+}
+a.google:active{
+  background-position: 0 -219px;
+  width: 492px;
+  height: 108px;
+}
+a.google:hover{
+  background-position: 0 -109px;
+  width: 492px;
+  height: 108px;
+}

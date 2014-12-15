@@ -21,6 +21,7 @@ var cssFilesToInject = [
   'styles/jquery.dropdown.css',
   'styles/material.min.css',
   'styles/fullcalendar.css',
+  'styles/style.css',
   'styles/**/*.css',
   // 'styles/**/*.map'
 ];

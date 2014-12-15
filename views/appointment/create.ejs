@@ -1,0 +1,48 @@
+<div class="col-lg-10">
+  <div id="calendar"></div>
+</div>
+<div class="col-lg-2">
+  <form class="form-horizontal">
+    <div class="modal-body">
+      <fieldset>
+        <div class="form-group">
+          <label for="intervieweeEmail" class="control-label">Interviewee</label>
+          <div>
+            <div class="form-control-wrapper"><input type="email" class="form-control empty" id="intervieweeEmail" placeholder="Email"><span class="material-input"></span></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="employeeEmail" class="control-label">Invite Employee</label>
+          <div>
+            <div class="form-control-wrapper"><input type="email" class="form-control empty" id="employeeEmail" placeholder="Email"><span class="material-input"></span></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Appointments</label>
+          <div class="appointments"></div>
+        </div>
+      </fieldset>
+    </div>
+    <div class="modal-footer">
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+          <button type="submit" class="btn btn-primary">Create Appointment</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+  $(document).ready(function() {
+    $('#calendar').fullCalendar({
+      weekends: false,
+      defaultView: 'agendaWeek',
+      events: <%- JSON.stringify(events) %>,
+      businessHours: {
+        start: '9:00',
+        end: '19:00',
+        dow: [ 1, 2, 3, 4, 5 ]
+      }
+    });
+});
+</script>

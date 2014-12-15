@@ -11,48 +11,46 @@ var AppointmentController = {
     // get access token
     var user_id = req.session.passport.user;
     getAccessToken(user_id, function(accesstoken,email){
-      var google_calendar = new gcal.GoogleCalendar(accesstoken);
       var eow = new Date();
       eow.setDate(eow.getDate() + 7);
-      google_calendar.events.list(email, {'timeMin': new Date().toISOString(), 'timeMax': eow.toISOString()}, function(err, eventList){
-        var events = [];
+      var options = {
+        'timeMin': new Date().toISOString(),
+        'timeMax': eow.toISOString()
+      };
+      getEvents(accesstoken, email, options, function(error, eventList){
         eventList = JSONParse(eventList);
-        for (var i = 0; i < eventList.items.length; i++) {
-          var item = eventList.items[i];
-          item = JSONParse(item);
-          if (item.status == 'confirmed') {
-            var event_item = {};
-            event_item.title = item.summary;
-            item.start = JSONParse(item.start);
-            if (item.start.date) {
-              // all day event
-              event_item.allDay = true;
-              event_item.start = item.start.date;
-              event_item.end = JSONParse(item.end).date;
-            } else {
-              // timed event
-              event_item.start = item.start.dateTime;
-              event_item.end = JSONParse(item.end).dateTime;
-            }
-            // console.log(item.start);
-            events.push(event_item);
-          }
-        }
+        events = parseEvents(eventList.items);
         res.view({events: events,user_id: user_id, username: email});
       });
     });
   },
   create: function(req,res) {
-    //
+    var user_id = req.session.passport.user;
+    getAccessToken(user_id, function(accesstoken, email){
+      var eow = new Date();
+      eow.setDate(eow.getDate() + 7);
+      var options = {
+        'timeMin': new Date().toISOString(),
+        'timeMax': eow.toISOString()
+      };
+      getEvents(accesstoken, email, options, function(error, eventList){
+        eventList = JSONParse(eventList);
+        events = parseEvents(eventList.items);
+        res.view({events: events,user_id: user_id, username: email});
+      });
+    });
   },
   show: function(req,res) {
+    var data = {};
     // show the appointment
     // check user type, render the view.
     var user_id = req.session.passport.user;
     getUser(user_id, function(err, user){
-      //
+      // set view based on type of user
       var email = user.email;
       var type = user.role;
+      data.username = email;
+      data.user_id = user_id;
       switch(type) {
         case 'applicant':
           res.view('appointment/applicant',data)
@@ -67,6 +65,37 @@ var AppointmentController = {
     });
   }
 };
+
+function getEvents(accesstoken, email, options, callback) {
+  var google_calendar = new gcal.GoogleCalendar(accesstoken);
+  google_calendar.events.list(email, options, callback);
+}
+
+function parseEvents(items) {
+  var events = [];
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    item = JSONParse(item);
+    if (item.status == 'confirmed') {
+      var event_item = {};
+      event_item.title = item.summary;
+      item.start = JSONParse(item.start);
+      if (item.start.date) {
+        // all day event
+        event_item.allDay = true;
+        event_item.start = item.start.date;
+        event_item.end = JSONParse(item.end).date;
+      } else {
+        // timed event
+        event_item.start = item.start.dateTime;
+        event_item.end = JSONParse(item.end).dateTime;
+      }
+      // console.log(item.start);
+      events.push(event_item);
+    }
+  }
+  return events;
+}
 
 function JSONParse(data) {
   if (typeof(data) == 'string') return JSON.parse(data);

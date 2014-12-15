@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/styles/jquery.dropdown.css">
     <link rel="stylesheet" href="/styles/material.min.css">
     <link rel="stylesheet" href="/styles/fullcalendar.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
 
@@ -39,7 +40,7 @@
           <input type="text" class="form-control col-lg-8" placeholder="Search">
         </form>
         <ul class="nav navbar-nav navbar-right">
-          <% if (username) { %>
+          <% if (typeof(username) !='undefined' && username) { %>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><%= username %><b class="caret"></b></a>
             <ul class="dropdown-menu">

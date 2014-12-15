@@ -60,5 +60,7 @@ module.exports.routes = {
   'get /auth/:provider/callback': 'AuthController.callback',
   'get /auth/:provider/:action': 'AuthController.callback',
 
-  'get /appointments': 'AppointmentController.index'
+  'get /appointments': 'AppointmentController.index',
+  'get /appointments/create': 'AppointmentController.create',
+  'get /appointments/:appointment_id' : 'AppointmentController.show'
 };
