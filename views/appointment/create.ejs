@@ -1,7 +1,7 @@
-<div class="col-lg-10">
+<div class="col-lg-8">
   <div id="calendar"></div>
 </div>
-<div class="col-lg-2">
+<div class="col-lg-4">
   <form class="form-horizontal">
     <div class="modal-body">
       <fieldset>
@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
           <label>Appointments</label>
-          <div class="appointments"></div>
+          <div class="appointments bs-component"></div>
         </div>
       </fieldset>
     </div>
@@ -32,10 +32,19 @@
     </div>
   </form>
 </div>
+
+<div class="well_placeholder" style="display:none;">
+  <div class="well">
+    <button type="button" class="close" data-id="">×</button>
+      <span class="start"></span> -
+      <span class="end"></span>
+  </div>
+</div>
 <script>
   $(document).ready(function() {
     var calendar = $('#calendar');
     var id = 0;
+    var title = "Appointment";
     var events = [];
     calendar.fullCalendar({
       weekends: false,
@@ -47,13 +56,14 @@
           id: id,
           start: start,
           end: end,
-          title: 'appointment',
+          title: title,
           borderColor: '#357ebd',
           backgroundColor: "#009587"
         };
         id++;
         calendar.fullCalendar('unselect');
         calendar.fullCalendar( 'renderEvent', event_item );
+        createEvent(event_item);
       },
       selectOverlap: false,
       events: <%- JSON.stringify(events) %>,
@@ -63,5 +73,17 @@
         dow: [ 1, 2, 3, 4, 5 ]
       }
     });
-});
+
+    function createEvent(event){
+      var modal = $('.well_placeholder .well').clone();
+      modal.find('.start').text(moment(event.start).format('MMM Do, h:mm a'));
+      modal.find('.end').text(moment(event.end).format('MMM Do, h:mm a'));
+      modal.find('button').attr('data-id',event.id);
+      modal.find('button').on('click',function(e){
+        calendar.fullCalendar("removeEvents",[$(this).attr('data-id')]);
+        modal.remove();
+      });
+      $('.appointments').append(modal);
+    }
+  });
 </script>
